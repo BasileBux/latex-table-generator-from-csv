@@ -1,0 +1,67 @@
+{
+  "name": "latex-table-generator-from-csv",
+  "displayName": "latex-table-generator",
+  "description": "A VS Code extention to easily generate latex tables from csv files whitout ever quitting your favourite  code editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "latex-table-generator-from-csv.generateLatexTable",
+        "title": "Generate latex table from csv", 
+        "category": "Latex Table Generator"
+      },
+      {
+        "command": "latex-table-generator-from-csv.generateLatexTableFromCurrentFile",
+        "title": "LaTeX table", 
+        "category": "Latex Table Generator"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "latex-table-generator-from-csv.generateLatexTableFromCurrentFile",
+          "when": "editorLangId == csv",
+          "group": "navigation"
+        }
+      ]
+    }, 
+    "configuration": {
+      "title": "Latex Table Generator",
+      "properties": {
+        "latex-table-generator-from-csv.tableOutput": {
+          "type": "string",
+          "default": "clipboard",
+          "enum": ["clipboard", "text file", "clipboard and text file"],
+          "description": "Way to output the generated latex table. Either to the clipboard, to a text file or to both."
+        }, 
+        "latex-table-generator-from-csv.csvSeparator": {
+          "type": "string",
+          "default": ",",
+          "description": "Character to use as the CSV separator."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.86.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
