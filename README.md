@@ -8,7 +8,7 @@ It is recommended to pair this extension with the [Edit CSV extension](https://m
 
 Execute the function `Generate latex table from csv` from command palette
 
-![Generate latex table from csv in command palette](https://github.com/BasileBux/latex-tables-generator-from-csv/blob/b03009a69741a5b599dcf43d0c74895c36c5dd83/assets/latex-table-fromFile-demo.gif)
+![Generate latex table from csv in command palette](https://github.com/BasileBux/latex-table-generator-from-csv/blob/224d933f1e62006d5d17cc73517c44afcad2d2f7/assets/latex-table-fromFile-demo.gif)
 or simply click on the `LaTeX table` button in the editor groups when in a CSV file 
 
 ![Generate latex table from csv in editor group](https://github.com/BasileBux/latex-table-generator-from-csv/blob/b03009a69741a5b599dcf43d0c74895c36c5dd83/assets/latex-table-fromCurrentFile-demo.gif) 
