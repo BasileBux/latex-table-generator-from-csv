@@ -1,6 +1,7 @@
 {
   "name": "latex-table-generator-from-csv",
   "displayName": "latex-table-generator",
+  "publisher": "BasileBuxtorf",
   "description": "A VS Code extention to easily generate latex tables from csv files whitout ever quitting your favourite  code editor",
   "version": "0.0.1",
   "repository": {
