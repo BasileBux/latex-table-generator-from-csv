@@ -8,10 +8,10 @@ It is recommended to pair this extension with the [Edit CSV extension](https://m
 
 Execute the function `Generate latex table from csv` from command palette
 
-![Generate latex table from csv in command palette](https://raw.githubusercontent.com/BasileBux/latex-table-generator-from-csv/main/assets/latex-table-fromFile-demo.gif)
+![Generate latex table from csv in command palette](/assets/latex-table-fromFile-demo.gif)
 or simply click on the `LaTeX table` button in the editor groups when in a CSV file 
 
-![Generate latex table from csv in editor group](https://raw.githubusercontent.com/BasileBux/latex-table-generator-from-csv/main/assets/latex-table-fromCurrentFile-demo.gif)
+![Generate latex table from csv in editor group](/assets/latex-table-fromCurrentFile-demo.gif)
 
 to generate a LaTeX table from a CSV file.
 
@@ -36,7 +36,7 @@ You can change these settings by going to the settings in Visual Studio Code (Fi
 
 Initial release. 
 
-## :warning: Disclaimer
+## Disclaimer
 
 This extension is a small non-commercial project. It is not affiliated with the LaTeX project or any other project. Tools such as github copilot and chatGPT were highly used in the developpement process.
 
