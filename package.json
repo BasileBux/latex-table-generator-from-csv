@@ -3,6 +3,10 @@
   "displayName": "latex-table-generator",
   "description": "A VS Code extention to easily generate latex tables from csv files whitout ever quitting your favourite  code editor",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BasileBux/latex-table-generator-from-csv"
+  },
   "engines": {
     "vscode": "^1.86.0"
   },
